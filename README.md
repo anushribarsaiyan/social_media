@@ -25,7 +25,7 @@ This is a social networking API built with Django and Django REST Framework.
 git clone https://github.com/yourusername/django-social-networking-api.git
 cd django-social-networking-api```
 
-python -m venv venv
+```python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 python manage.py migrate
